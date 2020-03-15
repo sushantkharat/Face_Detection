@@ -60,3 +60,6 @@ while True:
 
     if key == 27 or key == ord('q'):
         break
+
+cap.release()
+cv2.destroyAllWindows()
